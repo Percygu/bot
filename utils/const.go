@@ -43,9 +43,11 @@ func GetWhiteOpenIDs() []string {
 func Get1V1MentorIDs() []string {
 	if IsTestEnv() {
 		return []string{
-			"ou_6e75a4323ad0eef42ae349d71203969e",
+			"ou_6e75a4323ad0eef42ae349d71203969e", //狼哥
 			"ou_bcd4e27aad8d4cda70bb0d0b091e487c", //虎哥
 			"ou_9a1afb986757fa17ee0d4d6ba2289d72", //牛哥
+			"ou_17a627f5ea7d28585af59f1649141e8e", //小林哥
+			"ou_844198543d625613bb5f9a5e4f2366c2", //鹏哥
 		}
 	}
 	return whiteOpenIDs
@@ -67,6 +69,7 @@ var whiteOpenIDs = []string{
 	"ou_bcd4e27aad8d4cda70bb0d0b091e487c", //虎哥
 	"ou_9a1afb986757fa17ee0d4d6ba2289d72", //牛哥
 	"ou_844198543d625613bb5f9a5e4f2366c2", //鹏哥
+	"ou_17a627f5ea7d28585af59f1649141e8e", //小林哥
 }
 
 func GetTaskFocusIDs() []string {
@@ -78,6 +81,8 @@ var focusOpenIDs = []string{
 	"ou_6e75a4323ad0eef42ae349d71203969e", //狼哥
 	"ou_bcd4e27aad8d4cda70bb0d0b091e487c", //虎哥
 	"ou_9a1afb986757fa17ee0d4d6ba2289d72", //牛哥
+	"ou_844198543d625613bb5f9a5e4f2366c2", //鹏哥
+	"ou_17a627f5ea7d28585af59f1649141e8e", //小林哥
 }
 
 const (
